@@ -421,6 +421,27 @@ ul .h1 .h2 .h3 .h4{
     text-align: center;
 }
 
+.container-svg{
+    display: flex;
+    background-color: var(--brand-white);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    margin-bottom: 100px;
+    gap: 30px;
+    width: 170px;
+    height: 81px;
+    border-radius: 4px;
+    fill: var(--brand-rectangulos);
+}
+
+.container-customer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*Pie de pagina*/
 
 address{
