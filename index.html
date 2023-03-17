@@ -19,6 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/icomoon/style.css" />
     <title>INDEX</title>
   </head>
   <body>
@@ -43,15 +44,27 @@
             </li>
           </ul>
         </nav>
-        <ul class="information">
-          <li>
+        <ul class="information inf">
+          <li class="container-info">
+            <div> 
+              <svg class="icon text-direction" width="16" height="12">
+                <use class="vec-color" href="./images/icons.svg.svg#icon-sobre-activable">
+                </use>
+              </svg>
+          </div>
             <a
               class="link info text-direction head-information"
               href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="container-info">
+            <div> 
+              <svg class="icon text-direction" width="16" height="12">
+                <use href="./images/icons.svg.svg#icon-Cel">
+                </use>
+              </svg>
+          </div>
             <a
               class="link info text-direction head-information"
               href="tel:+52 55 5529 6000"
@@ -70,114 +83,144 @@
         </button>
       </section>
       <!--Secion de articulos-->
-        <section class="container detail-two">
+      <section class="container detail-two">
+        <ul>
+          <li class="detailed-list">
+            <div class="container-vector"> 
+                <svg width="65" height="70">
+                  <use href="./images/icons.svg.svg#icon-antena">
+                  </use>
+                </svg>
+            </div>
+            <h3 class="intermediate">Atencion a los detalles</h3>
+            <p class="middle-text">
+              Nos adentramos en todos los detalles y procesos de su negocio,
+              para así desarrollar una solución a su medida.
+            </p>
+          </li>
+          <li class="detailed-list">
+            <div class="container-vector">
+              <svg width="65" height="70">
+                <use href="./images/icons.svg.svg#icon-reloj">
+                </use>
+              </svg>
+            </div>
+            <h3 class="intermediate">Puntualidad</h3>
+            <p class="middle-text">
+              Con nosotros, usted puede sentirse seguro y protegido. Un
+              principio importante de la empresa: respetar su tiempo y respetar
+              los plazos acordados.
+            </p>
+          </li>
+          <li class="detailed-list">
+            <div class="container-vector">
+              <svg width="65" height="70">
+                <use href="./images/icons.svg.svg#icon-computador">
+                </use>
+              </svg>
+            </div>
+            <h3 class="intermediate">Planificacion</h3>
+            <p class="middle-text">
+              Usted podrá observar y participar en cada fase del desarrollo y
+              aplicación de soluciones.
+            </p>
+          </li>
+          <li class="detailed-list">
+            <div class="container-vector">
+              <svg width="65" height="70">
+                <use href="./images/icons.svg.svg#icon-astronauta">
+                </use>
+              </svg>
+            </div>
+            <h3 class="intermediate">Tecnologia moderna</h3>
+            <p class="middle-text">
+              Usamos herramientas innovadoras para resolver las tareas
+              asignadas. Es hora de simplificar los procesos laborales.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!--Seccion de primeras imagenes-->
+      <section class="container container-img three">
+        <h2 class="profession section-title">A qué nos dedicamos</h2>
+        <ul class="img-two">
+          <li class="image-one">
+            <img src="images/image1.jpg" alt="image1" width="370" />
+          </li>
+          <li class="image-one">
+            <img src="images/image2.jpg" alt="image2" width="370" />
+          </li>
+          <li class="image-one">
+            <img src="images/image3.jpg" alt="image3" width="370" />
+          </li>
+        </ul>
+      </section>
+      <!--Equipo de trabajo-->
+      <section class="container-down team">
+        <div>
+          <h2 class="section-title">Nuestro Equipo</h2>
           <ul>
-            <li class="detailed-list">
-              <h3 class="intermediate">Atencion a los detalles</h3>
-              <p class="middle-text">
-                Nos adentramos en todos los detalles y procesos de su negocio,
-                para así desarrollar una solución a su medida.
-              </p>
+            <li class="section-img">
+              <img
+                class="img-profession"
+                src="images/image4.jpg"
+                alt="image4"
+                width="270"
+              />
+              <h3 class="professional">Andres Cubo</h3>
+              <p class="position">Diseñador De Productos</p>
+              <div class="red-social">
+                <svg width="20" height="17">
+                  <use class="social" href="./images/icons.svg.svg#icon-instagram">
+                  </use>
+                </svg>
+                <svg width="20" height="17">
+                  <use href="./images/icons.svg.svg#icon-twitter">
+                  </use>
+                </svg>
+                <svg width="20" height="17">
+                  <use href="./images/icons.svg.svg#icon-facebook">
+                  </use>
+                </svg>
+                <svg width="20" height="17">
+                  <use href="./images/icons.svg.svg#icon-linkedin">
+                  </use>
+                </svg>
+              </div>
             </li>
-            <li class="detailed-list">
-              <h3 class="intermediate">Puntualidad</h3>
-              <p class="middle-text">
-                Con nosotros, usted puede sentirse seguro y protegido. Un
-                principio importante de la empresa: respetar su tiempo y
-                respetar los plazos acordados.
-              </p>
+            <li class="section-img">
+              <img
+                class="img-profession-two"
+                src="images/image5.jpg"
+                alt="imagen5"
+                width="270"
+              />
+              <h3 class="professional">Carla Palacio</h3>
+              <p class="position">Desarroladora Frontend</p>
             </li>
-            <li class="detailed-list">
-              <h3 class="intermediate">Planificacion</h3>
-              <p class="middle-text">
-                Usted podrá observar y participar en cada fase del desarrollo y
-                aplicación de soluciones.
-              </p>
+            <li class="section-img">
+              <img
+                class="img-profession-three"
+                src="images/image6.jpg"
+                alt="image6"
+                width="270"
+              />
+              <h3 class="professional">Mario Dorado</h3>
+              <p class="position">Marketing</p>
             </li>
-            <li class="detailed-list">
-              <h3 class="intermediate">Tecnologia moderna</h3>
-              <p class="middle-text">
-                Usamos herramientas innovadoras para resolver las tareas
-                asignadas. Es hora de simplificar los procesos laborales.
-              </p>
+            <li class="section-img">
+              <img
+                class="img-profession-four"
+                src="images/image7.jpg"
+                alt="image7"
+                width="270"
+              />
+              <h3 class="professional">Pablo Mijangos</h3>
+              <p class="position">Diseñador IU</p>
             </li>
           </ul>
-        </section>
-        <!--Seccion de primeras imagenes-->
-        <section class="container container-img three">
-          <h2 class="profession section-title">A qué nos dedicamos</h2>
-          <ul class="img-two">
-            <li class="image-one">
-              <img
-                src="images/image1.jpg"
-                alt="image1"
-                width="370"
-              />
-            </li>
-            <li class="image-one">
-              <img
-                src="images/image2.jpg"
-                alt="image2"
-                width="370"
-              />
-            </li>
-            <li class="image-one">
-              <img
-                src="images/image3.jpg"
-                alt="image3"
-                width="370"
-              />
-            </li>
-          </ul>
-        </section>
-        <!--Equipo de trabajo-->
-        <section class="container-down team">
-          <div>
-            <h2 class="section-title">Nuestro Equipo</h2>
-            <ul>
-              <li class="section-img">
-                <img
-                  class="img-profession"
-                  src="images/image4.jpg"
-                  alt="image4"
-                  width="270"
-                />
-                <h3 class="professional">Andres Cubo</h3>
-                <p class="position">Diseñador De Productos</p>
-              </li>
-              <li class="section-img">
-                <img
-                  class="img-profession-two"
-                  src="images/image5.jpg"
-                  alt="imagen5"
-                  width="270"
-                />
-                <h3 class="professional">Carla Palacio</h3>
-                <p class="position">Desarroladora Frontend</p>
-              </li>
-              <li class="section-img">
-                <img
-                  class="img-profession-three"
-                  src="images/image6.jpg"
-                  alt="image6"
-                  width="270"
-                />
-                <h3 class="professional">Mario Dorado</h3>
-                <p class="position">Marketing</p>
-              </li>
-              <li class="section-img">
-                <img
-                  class="img-profession-four"
-                  src="images/image7.jpg"
-                  alt="image7"
-                  width="270"
-                />
-                <h3 class="professional">Pablo Mijangos</h3>
-                <p class="position">Diseñador IU</p>
-              </li>
-            </ul>
-          </div>
-        </section>
+        </div>
+      </section>
     </main>
     <!--Parte inferior-->
     <footer class="foot">
@@ -205,6 +248,9 @@
               <a class="link info" href="tel:+52 55 5529 6000 "
                 >+52 55 5529 6000
               </a>
+            </li>
+            <li class="net">
+              <p>ENCUENTRANOS EN</p>
             </li>
           </ul>
         </address>

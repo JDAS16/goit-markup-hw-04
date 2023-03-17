@@ -6,6 +6,7 @@
     --brand-info: #757575;
     --brand-white: #FFFFFF;
     --brand-head: #2F303A;
+    --brand-rectangulos:#F5F4FA;
     --font-size: 14px;
     --font-set: 16px;
     --font--Weight: 400; 
@@ -59,6 +60,25 @@ body{
     align-items: center;
 }
 
+.container-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon{
+fill: var(--brand-info);
+}
+
+.icon:hover{
+    fill: var(--brand-color)
+}
+
+.vec-color{
+    color: var(--brand-info);
+}
 
 .title{
     font-family: 'Raleway';
@@ -99,12 +119,16 @@ img{
     color:var(--brand-menu);
     line-height: 1.17;
     font-weight: var(--font-title);
+    fill: var(--brand-info);
 }
+
 .text-direction:hover{
     color:var(--brand-color);
     line-height: 1.17;
     font-weight: var(--font-title);
+    fill: #2196F3;
 }
+
 .info{
     font-size:var(--font-size);
     line-height: 1.17;
@@ -116,7 +140,10 @@ img{
 
 .head{
     background-color: var(--brand-head);
+    background-image: url("/images/image8.jpg");
+    background-size: cover;
 }
+
 
 .head-title{
     font-size: 44px;
@@ -152,13 +179,20 @@ img{
     padding: 10px 32px;
 }
 
-.detail-two{
-    padding-bottom: 94px;
-    padding-top: 94px;
+.container-vector {
+    display: flex;
+    background-color: var(--brand-rectangulos);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
 }
 
 .detail-two ul{
     display: flex;
+    margin-bottom: 120px;
     justify-content: center;
     gap: 30px;
     list-style: none;
@@ -342,6 +376,16 @@ ul .h1 .h2 .h3 .h4{
     background-color:var(--brand-pagina); 
 }
 
+.red-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+    background-color: #AFB1B8;
+}
+
 .container-down ul{
     display: flex;
     justify-content: center;
@@ -383,6 +427,16 @@ address{
     font-style: normal;
     display: flex;
     margin: 0;
+}
+
+.net{
+    display: flex;
+    flex-basis: calc((100% -2 * 50px ) / 3)
+    
+}
+
+.bi{
+    color: var(--brand-white);
 }
 
 .foot{
